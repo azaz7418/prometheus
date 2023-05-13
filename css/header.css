@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.head {
+  width: 100%;
+  text-align: center;
+  color: #264653;
+  background-color: #2A9D8F;
+  padding-top: 45px;
+
+}
+.part {
+  font-family: Times New Roman;
+}
+}
+.part2 {
+  color: #5e5e5ea7;
+}
+.tnev {
+  width: 100%;
+  background-color: #264653;
+  overflow: hidden;
+  margin: 10px 0px 0px 0px;
+}
+.tnev a:hover {
+  background-color: #2A9D8F;
+  color: #264653;
+}
+.tnev a {
+  color: #2A9D8F;
+  float: left;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 5px;
+}

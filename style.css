@@ -1,0 +1,18 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #2164b2d7 10%, #a0def8 100%);
+}
+
+.log {
+  position: fixed;
+  right: 0;
+  top: 0;
+  border: 1px solid transparent;
+  background-color: #264653;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+}

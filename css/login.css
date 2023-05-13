@@ -1,0 +1,65 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url("../Screenshot.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*total login page*/
+input {
+  width: 100%;
+  padding: 10px 8px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: none;
+  background-color: #74747454;
+}
+h1 {
+  margin: 25px;
+  
+}
+.totalpages {
+  display: flex;
+  
+  
+  
+  
+  
+}
+div.page {
+  width: 100%;
+  height: auto;
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  margin: 40px;
+  border-radius: 8px;
+}
+input[type=submit] {
+  width: 70%;
+  justify-content: center;
+  background-image: linear-gradient(to right, #2A9D8F 10%, #264653 );
+  color: white;
+  transition: 1s;
+}
+
+input[type=submit]:hover {
+  color: black;
+  background-image: linear-gradient(to left, #2A9D8F, #264653 90%);
+  transition: 1s;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  color: black;
+}
+.info {
+  text-align: center;
+}
+.info a {
+  text-decoration: none;
+  color: white;
+}
+
